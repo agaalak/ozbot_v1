@@ -1,0 +1,8 @@
+lsusb
+ps aux | grep gphoto
+kill -9
+gphoto2 --capture-image-and-download
+gphoto2 --capture-image-and-download --filename pic0001.jpg
+gphoto2 --capture-movie
+
+mv *.jpg ~/Pictures/
